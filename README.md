@@ -52,8 +52,8 @@ Cython~=0.29.21
 
 ### Installation
 ```
-Download the executable file and run the installer
-Current version is 1.0 - alpha 
+Download the executable file and run the installer (click on the tag version)
+New release v1.0.0-alpha
 ```
 
 ![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Capture.PNG)
