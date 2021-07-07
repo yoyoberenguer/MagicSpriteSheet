@@ -32,7 +32,7 @@ Version 1 contains the following effects
      pixels block's size.
 14 - convert your sprite in sepia. Change the tone of your animation toward a smooth 
      sepia effect
-15 - Greyscale effect. All will gray !
+15 - Greyscale effect. All will be sadly gray !
 16 - Inverse effect, Inverse the sprites color
 
 ```
