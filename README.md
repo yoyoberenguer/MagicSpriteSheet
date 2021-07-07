@@ -6,7 +6,8 @@ Version 1 contains the following effects
 ```
 1 - blending effect (blend the sprite with a specific color) 
 2 - HSV (hue rotation), rotate the color of your sprite
-3 - Bloom, create a bloom using a selective bright pass filter 
+3 - Bloom, create a bloom effect using a selective bright pass filter, this 
+    effect will increase the intensity of you explosion sprites
 4 - Create saturarion effect
 5 - Create a cartoon effect for all your sprites and edge detection
 6 - Create a Gaussian blur effect (kernel 5x5) of intensity x1 x2 x4 x6 
