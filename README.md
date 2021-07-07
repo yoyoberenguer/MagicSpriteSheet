@@ -1,7 +1,9 @@
 # SpriteSheet Studio 
-Load a spritesheet and add special effects
+## Load a spritesheet and add special effects
 
-Version 1 contains the following effects 
+### Version 1 contains the following effects 
+All effects can be summed together, but some effect will cancel or diminish others such as 
+greyscale effect or pixalated effect.
 
 ```
 1 - blending effect (blend the sprite with a specific color and choose the intensity) 
