@@ -14,7 +14,6 @@ Version 1 contains the following effects
 5 - Create a superb cartoon effect for all your sprites. This effect can 
     also create an edge detection effect (when both median filter and color
     reduction values are set to zero. 
-    to zero and color reduction i
 6 - Create a Gaussian blur effect (kernel 5x5) of intensity x1 x2 x4 x6
     Blur your sprites to the desire intensity, or use the progressive flag
     to adjust the blur with the timeline.
