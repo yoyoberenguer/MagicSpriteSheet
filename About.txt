@@ -1,0 +1,19 @@
+SpriteStudio is free software: you can redistribute it and/or modify it under the
+terms of the MIT License;
+
+SpriteStudio is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the MIT License for more details.
+
+You should have received a copy of the MIT License along with SpriteSheetStudio.
+
+Yoann Berenguer
+yoyoberenguer@hotmail.com
+
+REQUIREMENTS:
+future~=0.16.0
+pygame~=2.0.1
+numpy~=1.18.5
+Pmw~=2.0.1
+Pillow~=8.0.1
+Cython~=0.29.21

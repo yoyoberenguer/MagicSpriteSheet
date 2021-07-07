@@ -1,0 +1,6 @@
+future~=0.16.0
+pygame~=2.0.1
+numpy~=1.18.5
+Pmw~=2.0.1
+Pillow~=8.0.1
+Cython~=0.29.21

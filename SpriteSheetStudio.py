@@ -60,14 +60,14 @@ import platform
 
 try:
     from SpriteTools import blend_texture_32c, blend_texture_24_alpha, \
-    swap_channels24_c, \
-    horizontal_glitch32, horizontal_glitch24, \
-    invert_surface_24bit, invert_surface_24bit_exclude, invert_surface_32bit, swap_channels32_c, vertical_glitch24_c, \
-    blend_to_textures_24c, blend_to_textures_32c, greyscale_lightness24_c, sobel24, median_filter24_c, \
-    color_reduction24_c, greyscale_luminosity24_c, greyscale24_c, vertical_glitch32_c, greyscale_lightness32_c, \
-    greyscale_luminosity32_c, greyscale32_c, median_filter32_c, color_reduction32_c, sobel32, dithering24_c, \
-    dithering32_c, pixelate24, pixelate32, create_pixel_blocks_rgba, sepia24_c, create_pixel_blocks_rgb, \
-    invert_surface_32bit_exclude
+        swap_channels24_c, \
+        horizontal_glitch32, horizontal_glitch24, \
+        invert_surface_24bit, invert_surface_24bit_exclude, invert_surface_32bit, swap_channels32_c, vertical_glitch24_c, \
+        blend_to_textures_24c, blend_to_textures_32c, greyscale_lightness24_c, sobel24, median_filter24_c, \
+        color_reduction24_c, greyscale_luminosity24_c, greyscale24_c, vertical_glitch32_c, greyscale_lightness32_c, \
+        greyscale_luminosity32_c, greyscale32_c, median_filter32_c, color_reduction32_c, sobel32, dithering24_c, \
+        dithering32_c, pixelate24, pixelate32, create_pixel_blocks_rgba, sepia24_c, create_pixel_blocks_rgb, \
+        invert_surface_32bit_exclude
 
 except ImportError:
     raise ImportError("SpriteTools library is not found for on system.\n"
@@ -2501,29 +2501,33 @@ class SpriteSheetStudio:
         global VERSION
         messagebox.showinfo(
             "", "SpriteStudio version %s\n\n"
-            "This software is a free software release under the GNU license\n"
+            "This software is a free software release under the MIT license\n"
             "SpriteStudio is free software: you can redistribute it and/or\n"
-            "modify it under the terms of the GNU General Public License\n"
-            "as published by the Free Software Foundation;\n\n"
+            "modify it under the terms of MIT License\n\n"
+           
             "SpriteStudio is distributed in the hope that it will be useful,\n"
             "but WITHOUT ANY WARRANTY; without even the implied\n"
             "warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
-            "See the GNU General Public License for more details.\n"                 
-            "You should have received a copy of the GNU General Public\n"
-            "License along with SpriteStudio.\n"
-            "If not see: https://www.gnu.org/licenses/\n\n"
+            "See the MIT License for more details.\n"                 
+            "You should have received a copy of the MIT License along with\n"
+            "SpriteStudio.\n\n"
+            
             "Yoann Berenguer All right reserved\n"
             "yoyoberenguer@hotmail.com" % VERSION)
+
     """
-    SpriteStudio is free software: you can redistribute it and/or modify it under the 
-    terms of the GNU General Public License as published by the Free Software Foundation;
-    either version 3 of the License, or (at your option) any later version.
+    SpriteStudio is free software: you can redistribute it and/or modify it under the
+    terms of the MIT License;
+    
     SpriteStudio is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
     without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-    See the GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License along with GIMP. If not,
-    see: https://www.gnu.org/licenses/
+    See the MIT License for more details.
+    
+    You should have received a copy of the MIT License along with SpriteSheetStudio.
+    
+    Yoann Berenguer
+    yoyoberenguer@hotmail.com
+   
     """
 
     def draw_menu(self):
