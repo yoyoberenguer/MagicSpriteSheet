@@ -29,7 +29,7 @@ Version 1 contains the following effects
      your sprites to simulate a glitch effect that could enhence the animation
 12 - Dithering effect, aesthetic effect to create a retro type animation 
 13 - Pixalated effect, modify your sprites with pixalation effect with adjustable 
-     block of pixels
+     pixels block's size.
 14 - convert your sprite in sepia. Change the tone of your animation toward a smooth 
      sepia effect
 15 - Greyscale effect. All will gray !
