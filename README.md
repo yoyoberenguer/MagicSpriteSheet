@@ -27,7 +27,7 @@ Version 1 contains the following effects
      specific texture (this is similar to a morphing effect) 
 11 - Glitch effect (vertical and horizontal directions). Add a special motion to 
      your sprites to simulate a glitch effect that could enhence the animation
-12 - Dithering effect, aesthetic effect to create a retro type of animation 
+12 - Dithering effect, aesthetic effect to create a retro type animation 
 13 - Pixalated effect, modify your sprites with pixalation effect with adjustable 
      block of pixels
 14 - convert your sprite in sepia. Change the tone of your animation toward a smooth 
