@@ -54,6 +54,8 @@ Cython~=0.29.21
 ```
 Download the executable file and run the installer (check the github release section)
 New release v1.0.0-alpha
+Actual version is a pre-release and the current project is stil under development and testing
+Please report any issue that you wish to be fixed quickly.
 ```
 
 ![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Capture.PNG)
