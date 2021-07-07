@@ -52,7 +52,7 @@ Cython~=0.29.21
 
 ### Installation
 ```
-Download the executable file and run the installer (click on the tag version)
+Download the executable file and run the installer (check the github release section)
 New release v1.0.0-alpha
 ```
 
