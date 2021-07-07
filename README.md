@@ -39,4 +39,21 @@ greyscale effect or pixalated effect.
 
 ```
 
+### Requirements:
+```
+Python > 3.0
+future~=0.16.0
+pygame~=2.0.1
+numpy~=1.18.5
+Pmw~=2.0.1
+Pillow~=8.0.1
+Cython~=0.29.21
+```
+
+### Installation
+```
+Download the executable file and run the installer
+Current version is 1.0 - alpha 
+```
+
 ![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Capture.PNG)
