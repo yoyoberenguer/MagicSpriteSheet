@@ -59,6 +59,10 @@ Please report any issues if you wish them to be fixed.
 
 ![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Capture.PNG)
 
+### Loading a sprite
+
+![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/InputSettings.PNG)
+
 
 ## License (MIT)
 
