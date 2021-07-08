@@ -80,6 +80,7 @@ dimension (here 2048x2048 pixels), that give us the following sprite dimension,
 ```
 ![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/Miniature%20SpriteSheet%20example.png)
 ```
+In order to load the spritesheet we will enter the following values
 ```
 ![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/InputSettings.PNG)
 
