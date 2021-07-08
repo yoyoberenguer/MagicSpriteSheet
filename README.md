@@ -61,9 +61,16 @@ Please report any issues if you wish them to be fixed.
 
 ### Loading a spritesheet
 ```
-In the frame <Input Settings>, define the sprites width and height, rows and columns 
-for example if your image is dimension 1536 x 1536  with sprite over 6 rows and 6 columns 
+Below a spritesheet that can be loaded by the interface. 
+Observe the background color (solid black) and the number of sprites icnluded in the 
+spritesheet. 
+The image is composed by 8 columns and 8 rows and give us a total of 64 sprites 
+To determine the sprite width and height we need to check first the spritesheet 
+dimension (here 2048x2048 pixels), that give us the following dimension, 256x256 (2048 / 8) 
 
+```
+![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/Miniature%20SpriteSheet%20example.png)
+```
 ```
 ![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/InputSettings.PNG)
 
