@@ -66,11 +66,15 @@ Observe the background color (solid black) and the number of sprites icnluded in
 spritesheet. 
 The image is composed by 8 columns and 8 rows and give us a total of 64 sprites 
 To determine the sprite width and height we need to check first the spritesheet 
-dimension (here 2048x2048 pixels), that give us the following dimension, 256x256 (2048 / 8) 
+dimension (here 2048x2048 pixels), that give us the following sprite dimension, 
+256x256 (2048 / 8) 
 
-* The actual version (1.0.0 - alpha) is not build with sprite padding functionaly neither  
-  with an automatic sprite size detection (all the values have to be entered manually before 
+* The actual version (1.0.0 - alpha) does not include sprite padding functionaly nor  
+  an automatic sprite size detection option (all the values have to be entered manually before 
   loading the spritesheet)
+ 
+* It is also compulsory to know the image format (24-bit or 32-bit) and tick the correct option
+  In our scenario, the it will be a 24-bit image format (without per-pixel transparency)
 
 ```
 ![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/Miniature%20SpriteSheet%20example.png)
