@@ -74,7 +74,8 @@ dimension (here 2048x2048 pixels), that give us the following sprite dimension,
   loading the spritesheet)
  
 * It is also compulsory to know the image format (24-bit or 32-bit) and tick the correct option
-  In our scenario, the it will be a 24-bit image format (without per-pixel transparency)
+  in the input settings. In our scenario, the it will be a 24-bit image format (without per-pixel
+  transparency)
 
 ```
 ![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/Miniature%20SpriteSheet%20example.png)
