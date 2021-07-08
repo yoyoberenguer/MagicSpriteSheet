@@ -61,7 +61,7 @@ Please report any issues if you wish them to be fixed.
 
 ### Loading a sprite
 
-![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/InputSettings.png)
+![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/Assets/blob/main/InputSettings.PNG)
 
 
 ## License (MIT)
