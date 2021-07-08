@@ -80,11 +80,19 @@ dimension (here 2048x2048 pixels), that give us the following sprite dimension,
 ```
 ![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/Miniature%20SpriteSheet%20example.png)
 ```
-In order to load the spritesheet we will enter the following values
+In order to load the above spritesheet we will enter the following values, tick the box 24-bit 
+and load the file (the file must be JPG, PNG, GIF (non-animated),  BMP,  PCX, TGA (uncompressed)
+TIF).
+
+* If the image has a transparency background, select the 32-bit option instead
+* The file will fail to load if the input values are not correct.
 ```
 ![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/InputSettings.PNG)
 
+### Blending effect
+```
 
+```
 
 ## License (MIT)
 
