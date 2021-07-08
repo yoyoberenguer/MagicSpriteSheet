@@ -59,9 +59,14 @@ Please report any issues if you wish them to be fixed.
 
 ![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Capture.PNG)
 
-### Loading a sprite
+### Loading a spritesheet
+```
+In the frame <Input Settings>, define the sprites width and height, rows and columns 
+for example if your image is dimension 1536 x 1536  with sprite over 6 rows and 6 columns 
 
-![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/Assets/InputSettings.PNG)
+```
+![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/InputSettings.PNG)
+
 
 
 ## License (MIT)
