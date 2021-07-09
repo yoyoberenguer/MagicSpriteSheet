@@ -187,7 +187,7 @@ the colors that comprise all white light (red, green, blue) went out-of-bounds
 select the x & y offset for the channels RGB. 
 Specify the start and End value of the effect 
 ```
-![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/RGB split.PNG)
+![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/RGB%20split.PNG)
 ```
 Transition 
 This effect allows the sprites to merge toward a static texture. 
@@ -227,7 +227,7 @@ images, a kind of black-and-white or grey monochrome, are composed exclusively
 of shades of grey. The contrast ranges from black at the weakest intensity to white
 at the strongest
 ```
-![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/Miscellaneoust.PNG)
+![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/Miscellaneous.PNG)
 
 
 ## License (MIT)
