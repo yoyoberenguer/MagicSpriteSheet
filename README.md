@@ -98,28 +98,13 @@ will included in the blend process.
 Adjust the percentage with the scale.
 ```
 
-```
-In our scenario we will blend the sprites with blue red 79, green 160, blue 242
-Exclude color will be solid black (identical to the background color) 
-the start frame is 0 and last frame is 64 
-Change the start and end values to blend the animation at a specific frame if needed
-The perctage is set to 50%, 
-* Note at 100% the sprite color is fully merged to the specific color, at 0% no 
- change will be observed.
-```
 ![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/Blending.PNG)
 ```
 HSV (for hue, saturation, value; also known as HSB, for hue, saturation,
 brightness) are alternative representations of the RGB color model
 This effect will change the color of your sprites to a define color or will rotate
 the hue automatically for your animation starting a -180 degrees ending at 
-+180 degres.
-```
-```
-Tick the box hsv rotate if you wish to create a hue rotation effect for your sprites. 
-Select the angle from -180 to +180 to change your spritesheet overall apperance. 
-Note that 0 degrees the spritesheet color will remain unchanged and -180 and +180 
-are results are identical
++180 degres when the hsv rotate option is enabled.
 ```
 ![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/HSV.PNG)
 ```
