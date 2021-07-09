@@ -196,6 +196,7 @@ will smoothly merge to a final image that could be a cold volcano.
 Without any texture, the sprite animation will morph toward the background color
 Texture must be a PNG, JPEG, BMP
 ```
+![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/Transition.PNG)
 ```
 GLITCH 
 Add a glitch effect to you sprites using a lateral / vertical motion
