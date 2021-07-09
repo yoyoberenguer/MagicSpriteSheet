@@ -91,8 +91,137 @@ TIF).
 
 ### Blending effect
 ```
+Blend the sprite with a specific color (ajust the blending percentage to obtain 
+the required color effect). 
+Set the exlude color to avoid the background to be blended otherwise the background
+will included in the blend process.
+Adjust the percentage with the scale.
+```
 
 ```
+In our scenario we will blend the sprites with blue red 79, green 160, blue 242
+Exclude color will be solid black (identical to the background color) 
+the start frame is 0 and last frame is 64 
+Change the start and end values to blend the animation at a specific frame if needed
+The perctage is set to 50%, 
+* Note at 100% the sprite color is fully merged to the specific color, at 0% no 
+ change will be observed.
+```
+![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/Blending.PNG)
+```
+HSV (for hue, saturation, value; also known as HSB, for hue, saturation,
+brightness) are alternative representations of the RGB color model
+This effect will change the color of your sprites to a define color or will rotate
+the hue automatically for your animation starting a -180 degrees ending at 
++180 degres.
+```
+```
+Tick the box hsv rotate if you wish to create a hue rotation effect for your sprites. 
+Select the angle from -180 to +180 to change your spritesheet overall apperance. 
+Note that 0 degrees the spritesheet color will remain unchanged and -180 and +180 
+are results are identical
+```
+![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/HSV.PNG)
+```
+Bloom effect 
+Bloom is a computer graphics effect used in video games, demos, and high dynamic range
+rendering to reproduce an imaging artifact of real-world cameras.
+The algorithm is based on my previous project bloom (have a look to my github page
+to have a full understanding on how to)
+The bloom effect will increase the brightness of your sprite creating a kind 
+of bright halo of light aroud the object (sprite). 
+It relies on a bright pass filter in order to find the brighest area in your 
+image and enhance those areas. 
+In the future version I will include an RGB color selections for the bloom effect
+```
+```
+Saturation
+Saturation refers to the intensity of a color. The higher the saturation of a 
+color, the more vivid it is. The lower the saturation of a color, the closer 
+it is to gray. Lowering the saturation of a photo can have a “muting” or calming 
+effect, while increasing it can increase the feel of the vividness of the scene.
+```
+```
+Cartoon effect
+This is a appealing ffect that will modify your sprites into a cartonish model.
+It is based on an edge detection algorithm (canny edge detection in addition 
+with a median filter and color reduction). 
+When the median filter & color reduction are null the sprites animation will be 
+converted to an edge detection animation.
+```
+```
+Blur Effect 
+Apply a Gaussian blur effect kernel 5x5. 
+Select the number of passes x2 x4 x6
+The pixels outside the image are substitute for the adjacent edge pixel for example 
+pixel [-2, 0] will be equivalent to pixel [0,0]
+```
+```
+GLOW effect 
+Select a texture that will represent the glow motion an select a diretion 
+note that the selected texture must match the direction otherwise the effect
+will look odd. for example if you select the directions right and left the texture
+would have to be a vertical shape (height > width). For up or down glowing effect 
+the texture would have to be the opposite (width > height) 
+In the main direction under Assets you can find texture that can be used for 
+the glowing effect, such as icon_glareFx_blue, icon_glareFx_blue_top_left2bottom_right,
+icon_glareFx_blue_top_right2bottom_left, icon_glareFx_red.
+With the scale you can define a specific color for the glow effect.
+```
+```
+RGB channels 
+Convert your sprites to a different model 
+choose from the drop down menu any of this models 
+RBG, RBG, GRB, BRG, BGR, GBR and activate or disable the color channel of your 
+choice 
+```
+```
+RGB split effect
+An RGB Split Effect results in photos that have a glitch-like appearance, where 
+the colors that comprise all white light (red, green, blue) went out-of-bounds
+select the x & y offset for the channels RGB. 
+Specify the start and End value of the effect 
+```
+```
+Transition 
+This effect allows the sprites to merge toward a static texture. 
+For example if you have a sprite animation of a errupting volcano effect, the transition
+will smoothly merge to a final image that could be a cold volcano. 
+Without any texture, the sprite animation will morph toward the background color
+Texture must be a PNG, JPEG, BMP
+```
+```
+GLITCH 
+Add a glitch effect to you sprites using a lateral / vertical motion
+```
+```
+Dithering 
+A common use of dither is converting a grayscale image to black and white, such 
+that the density of black dots in the new image approximates the average gray-level
+in the original.
+select a value for the intensity effect maximun dithering effect is value equal zero 
+```
+```
+Pixelated 
+Create a pixelated effect for your sprites, choose the pixel block size as 
+a multiple of 2 such as for example 4, 8, 16, 32, 64
+```
+```
+Sepia 
+Sepia is a reddish-brown color, named after the rich brown pigment derived from the 
+ink sac of the common cuttlefish Sepia.
+```
+```
+Greyscale 
+In digital photography, computer-generated imagery, and colourimetry, a greyscale
+image is one in which the value of each pixel is a single sample representing only
+an amount of light; that is, it carries only intensity information. Greyscale 
+images, a kind of black-and-white or grey monochrome, are composed exclusively 
+of shades of grey. The contrast ranges from black at the weakest intensity to white
+at the strongest
+```
+
+
 
 ## License (MIT)
 
