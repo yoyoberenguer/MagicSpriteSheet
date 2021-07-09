@@ -134,6 +134,7 @@ It relies on a bright pass filter in order to find the brighest area in your
 image and enhance those areas. 
 In the future version I will include an RGB color selections for the bloom effect
 ```
+![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/Bloom.PNG)
 ```
 Saturation
 Saturation refers to the intensity of a color. The higher the saturation of a 
@@ -141,6 +142,7 @@ color, the more vivid it is. The lower the saturation of a color, the closer
 it is to gray. Lowering the saturation of a photo can have a “muting” or calming 
 effect, while increasing it can increase the feel of the vividness of the scene.
 ```
+![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/Saturation.PNG)
 ```
 Cartoon effect
 This is a appealing ffect that will modify your sprites into a cartonish model.
@@ -149,6 +151,7 @@ with a median filter and color reduction).
 When the median filter & color reduction are null the sprites animation will be 
 converted to an edge detection animation.
 ```
+![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/Cartoonish.PNG)
 ```
 Blur Effect 
 Apply a Gaussian blur effect kernel 5x5. 
@@ -156,6 +159,7 @@ Select the number of passes x2 x4 x6
 The pixels outside the image are substitute for the adjacent edge pixel for example 
 pixel [-2, 0] will be equivalent to pixel [0,0]
 ```
+![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/Blur.PNG)
 ```
 GLOW effect 
 Select a texture that will represent the glow motion an select a diretion 
@@ -168,6 +172,7 @@ the glowing effect, such as icon_glareFx_blue, icon_glareFx_blue_top_left2bottom
 icon_glareFx_blue_top_right2bottom_left, icon_glareFx_red.
 With the scale you can define a specific color for the glow effect.
 ```
+![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/Glow.PNG)
 ```
 RGB channels 
 Convert your sprites to a different model 
@@ -182,6 +187,7 @@ the colors that comprise all white light (red, green, blue) went out-of-bounds
 select the x & y offset for the channels RGB. 
 Specify the start and End value of the effect 
 ```
+![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/RGB split.PNG)
 ```
 Transition 
 This effect allows the sprites to merge toward a static texture. 
@@ -194,6 +200,7 @@ Texture must be a PNG, JPEG, BMP
 GLITCH 
 Add a glitch effect to you sprites using a lateral / vertical motion
 ```
+![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/Glitch.PNG)
 ```
 Dithering 
 A common use of dither is converting a grayscale image to black and white, such 
@@ -220,7 +227,7 @@ images, a kind of black-and-white or grey monochrome, are composed exclusively
 of shades of grey. The contrast ranges from black at the weakest intensity to white
 at the strongest
 ```
-
+![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/Miscellaneoust.PNG)
 
 
 ## License (MIT)
