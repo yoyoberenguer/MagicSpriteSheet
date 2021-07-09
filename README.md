@@ -165,6 +165,7 @@ choose from the drop down menu any of this models
 RBG, RBG, GRB, BRG, BGR, GBR and activate or disable the color channel of your 
 choice 
 ```
+![alt text](https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/Assets/RGB%20channel.PNG)
 ```
 RGB split effect
 An RGB Split Effect results in photos that have a glitch-like appearance, where 
