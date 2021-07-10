@@ -8,7 +8,7 @@ greyscale effect or pixalated effect.
 
 * blending effect (blend the sprite with a specific color and choose the intensity) 
 * HSV (hue rotation), rotate the colors of your sprites. This effect is great to create 
-  colorfull animation with different color variation from the same model.
+  colorful animation with different color variation from the same model.
 * Bloom, create a bloom effect using a selective bright pass filter, this 
     effect will increase the intensity of you explosion sprites
 * Create saturarion effect
@@ -18,13 +18,13 @@ greyscale effect or pixalated effect.
 * Create a Gaussian blur effect (kernel 5x5) of intensity x1 x2 x4 x6
     Blur your sprites to the desire intensity, or use the progressive flag
     to adjust the blur with the timeline.
-* Glowing effect (load a specific image and chosse a glowing direction)
+* Glowing effect (load a specific image and choose a glowing direction)
 * RGB channels (select a model of your choice e.g BGR, GRB etc). Swap channels
     at your convenience or enable/ disable the channel of your choice.
 * RGB split (apply to 24 bit image format only). Create an RGB split effect, 
     superpose effet of red, green and blue channels (choose the coorect offset to 
     move the channels at the suitable position)
-* Transition effect, display your sprites and change the apperance toward a 
+* Transition effect, display your sprites and change the appearance toward a 
      specific texture (this is similar to a morphing effect) 
 * Glitch effect (vertical and horizontal directions). Add a special motion to 
      your sprites to simulate a glitch effect that could enhence the animation
