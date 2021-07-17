@@ -74,7 +74,7 @@ dimension (here 2048x2048 pixels), that give us the following sprite dimension,
   loading the spritesheet)
  
 * It is also compulsory to know the image format (24-bit or 32-bit) and tick the correct option
-  in the input settings. In our scenario, the it will be a 24-bit image format (without per-pixel
+  in the input settings. In our scenario, it will be a 24-bit image format (without per-pixel
   transparency)
 
 ```
