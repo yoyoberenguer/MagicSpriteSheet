@@ -1,4 +1,10 @@
 # SpriteSheet Studio 
+
+<p align="center">
+    <img src="https://github.com/yoyoberenguer/MagicSpriteSheet/blob/main/MagicSprite.gif?raw=true">
+</p>
+
+
 ## Load a spritesheet and add special effects
 
 ### Version 1 contains the following effects 
